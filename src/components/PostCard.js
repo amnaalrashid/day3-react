@@ -5,7 +5,7 @@ import posts from "../assets/data";
 const PostCard = ({ image, title, description, likes }) => {
   return (
     <div className="post-container">
-      <img src={image} alt="post1"></img>
+      <img className="post-image" src={image} alt="post1"></img>
       <h2>Title: {title}</h2>
       <h3>Descriptione: {description}</h3>
       <p>Likes: {likes}</p>

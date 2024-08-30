@@ -8,7 +8,7 @@ const App = () => {
       <div>
         <h1>My cool Instagram</h1>
       </div>
-      <div>
+      <div className="post-section">
         <PostList />
       </div>
     </div>
